@@ -5,15 +5,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  主页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  #Link: /link/ || fa fa-link
+  关于我: /about/ || fa fa-heart
+  #List||fa fa-list:
+   # - Music || /music/ || fa fa-music
+    #- Movie || /movies/ || fa fa-film
 
 # Favicon
 # ---------------
@@ -52,8 +52,9 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127
-  fa fa-envelope: mailto:xxxxxxxx@gmail.com
+  iconfont icon-zhihu-circle: https://www.zhihu.com/people/li-yang-yang-94-14/activities
+  fa fa-github: https://github.com/qianfeiqianlan
+  fa fa-envelope: yayli@thoughtworks.com
   fa fa-rss: /atom.xml
 
 ####    search    ####
@@ -98,7 +99,7 @@ katex:
 
 # Post info settings
 # ---------------
-avatar: /img/avatar.png
+avatar: /img/avatar.jpg
 
 # the banner image of index
 index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -211,15 +212,15 @@ gitalk:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  enable: true # if you want use valine,please set this value is true
+  appId: 974kKRwdamaTfc3z1H3Xtcaz-gzGzoHsz # leancloud application app id
+  appKey: IIzhUT8tImgjcOGTykwXXiaU # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-cn/en
-  placeholder: Please leave your footprints # valine comment input placeholder(like: Please leave your footprints )
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: 给我留言 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
   bg: /img/comment_bg.png # valine background
   count: false # top_img顯示評論數
@@ -383,7 +384,7 @@ activate_power_mode:
 # 避免卡頓，建議只開啓一個
 # 點擊烟火特效
 fireworks:
-  enable: false
+  enable: true
 
 # 點擊出現愛心
 click_heart:
@@ -450,11 +451,11 @@ subtitle:
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  source: false
+  source: 1
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    #- 今日事&#44;今日畢
+    #- Never put off till tomorrow what you can do today
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -474,7 +475,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 你好陌生人
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -488,7 +489,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 1/1/2020 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
