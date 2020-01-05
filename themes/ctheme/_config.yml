@@ -291,11 +291,11 @@ reward:
   enable: true
   QR_code:
     - itemlist:
-        img: /img/wechat.jpg
-        text: 微信
+        img: /img/WeChat.png
+        text: WeChat
     - itemlist:
-        img: /img/alipay.jpg
-        text: 支付寶
+        img: /img/AliPay.jpg
+        text: AliPay
 
 # 推薦文章
 related_post:
@@ -455,7 +455,7 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
     #- 今日事&#44;今日畢
-    #- Never put off till tomorrow what you can do today
+    #- Never put off till toorrow what you can do today
 
 ####    側邊欄    ####
 #-------------------------------------
