@@ -3,8 +3,8 @@ sidebar:
   have_read: 你已经读了
 
 footer:
-  driven: 驱动
-  theme: 主题
+  driven: Power
+  theme: theme
 
 copy:
   success: 复制成功
@@ -32,7 +32,7 @@ post:
     author: 文章作者
     link: 文章链接
     copyright_notice: 版权声明
-    copyright_content: '本博客所有文章除特别声明外，均采用 <a href="%s">%s</a> 许可协议。转载请注明来自 <a href="%s">%s</a>！'
+    copyright_content: '转载请注明来自 <a href="%s">%s</a>！'
 
 search: 搜索
 algolia_search:
@@ -70,7 +70,7 @@ aside:
     site_uv_name: 本站访客数
     site_pv_name: 本站总访问量
 
-donate: 打赏
+donate: 友情赞助
 share: 分享
 bookmark:
   title: 添加书签
