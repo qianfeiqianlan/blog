@@ -32,7 +32,7 @@ post:
     author: 文章作者
     link: 文章链接
     copyright_notice: 版权声明
-    copyright_content: '转载请注明来自 <a href="%s">%s</a>！'
+    copyright_content: '技术文章转载请注明来自 <a href="%s">%s</a>！'
 
 search: 搜索
 algolia_search:
