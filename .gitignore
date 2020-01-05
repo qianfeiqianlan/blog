@@ -106,3 +106,5 @@ dist
 #hexo
 db.json
 public/*
+themes/butterfly/node_modules
+
