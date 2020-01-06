@@ -24,6 +24,6 @@ Node.js的第一个版本发布于2009年，迄今已经十余年之久，得益
 
 下面是一张node的architecture图
 
-![](../images/node-source-code/node-architecture.jpeg)
+![](/images/node-source-code/node-architecture.jpeg)
 
 通过这张图可以很清楚的看到，node通过C/C++封装系统相关的功能，包括Event Loop、DNS、http、zlib等等一系列功能，然后通过node自己的binding系统，将C/C++所提供的能力赋予系统库(也就是`Node standard library`)，也就是我们代码里可以调用部分。
