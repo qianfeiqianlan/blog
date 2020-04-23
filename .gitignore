@@ -108,3 +108,6 @@ db.json
 public/*
 themes/ctheme/node_modules
 
+#custom
+.idea/
+
